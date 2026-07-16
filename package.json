@@ -1,0 +1,19 @@
+{
+  "name": "hibackend",
+  "version": "1.0.0",
+  "description": "A hiharsh backend module.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Harsh Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
